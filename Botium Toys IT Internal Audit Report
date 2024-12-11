@@ -1,0 +1,65 @@
+**Botium Toys IT Internal Audit Report**
+
+**Scope, Goals, and Risk Assessment Review**
+
+The IT manager has established the following scope and goals for the internal IT audit:
+
+**Scope:**
+- Assess the security posture of Botium Toys’ IT infrastructure, focusing on compliance with regulations for online payments and conducting business in the European Union (E.U.).
+- Evaluate the IT department’s ability to mitigate risks, threats, and vulnerabilities to critical assets.
+
+**Goals:**
+1. Identify existing vulnerabilities and assess compliance gaps.
+2. Provide actionable recommendations to improve security measures.
+3. Ensure alignment with the National Institute of Standards and Technology Cybersecurity Framework (NIST CSF).
+
+**Risk Assessment Overview:**
+- **Critical Assets:** Customer data, payment processing systems, e-commerce platform, and IT infrastructure.
+- **Key Risks:** Non-compliance with General Data Protection Regulation (GDPR), Payment Card Industry Data Security Standard (PCI DSS), and potential system breaches.
+- **Likelihood of Risk:** High due to rapid growth and lack of formal security measures.
+- **Potential Impact:** Financial penalties, reputational damage, and operational disruptions.
+
+---
+
+**Controls and Compliance Checklist**
+
+| **Control Category**       | **Control Description**                                     | **Implemented (Yes/No)** | **Compliance Best Practice (Yes/No)** | **Recommendations**                                                                                                                                           |
+|----------------------------|------------------------------------------------------------|--------------------------|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Access Controls**        | Ensure access to sensitive systems is restricted to authorized personnel. | Yes                      | Yes                                   | Implement multi-factor authentication (MFA) for all administrative accounts to strengthen access security.                                                    |
+| **Data Protection**        | Encrypt sensitive customer and payment data both in transit and at rest. | No                       | No                                    | Adopt encryption protocols such as TLS for data in transit and AES for data at rest to meet PCI DSS and GDPR requirements.                                      |
+| **Incident Response**      | Establish an incident response plan to address breaches and mitigate damage. | No                       | No                                    | Develop a formal incident response plan, including a clear chain of command and procedures for breach notification.                                             |
+| **Network Security**       | Deploy firewalls, intrusion detection systems, and regular vulnerability scans. | Yes                      | No                                    | Conduct regular penetration tests and ensure firewall rules are updated to meet evolving security needs.                                                       |
+| **Regulatory Compliance**  | Adhere to GDPR and PCI DSS standards for data protection and payment processing. | No                       | No                                    | Hire a compliance officer or consultant to oversee adherence to E.U. and payment security standards and ensure ongoing compliance monitoring.                   |
+| **Employee Training**      | Conduct regular cybersecurity training for employees.      | No                       | No                                    | Introduce mandatory training sessions on identifying phishing attacks, safe password practices, and general cybersecurity hygiene.                              |
+| **System Monitoring**      | Implement continuous monitoring for anomalies and potential threats. | Yes                      | Yes                                   | Utilize automated monitoring tools and consider integrating a Security Information and Event Management (SIEM) solution for centralized log analysis.           |
+
+---
+
+**Summary Recommendations for the IT Manager:**
+
+1. **Prioritize Encryption:** Address critical gaps in data protection by implementing encryption protocols to safeguard sensitive information.
+2. **Enhance Incident Response:** Develop and document an incident response plan to quickly address and mitigate security incidents.
+3. **Ensure Compliance:** Focus on meeting GDPR and PCI DSS requirements by hiring a dedicated compliance officer and conducting regular audits.
+4. **Employee Training:** Build a culture of security awareness by introducing regular cybersecurity training for all staff.
+5. **Invest in Monitoring Tools:** Strengthen system monitoring capabilities with advanced tools to detect and respond to anomalies in real-time.
+
+By addressing these recommendations, Botium Toys can improve its security posture, achieve compliance with relevant regulations, and support its growing online business operations effectively.
+
+---
+
+**Self-Assessment:**
+
+| **Assessment Criteria**                                           | **Completed (Yes/No)** |
+|-------------------------------------------------------------------|-------------------------|
+| All controls have been reviewed and assessed for implementation. | Yes                     |
+| Compliance best practices have been evaluated and documented.    | Yes                     |
+| Recommendations are provided for addressing gaps.                | Yes                     |
+| Report aligns with the NIST CSF framework goals.                 | Yes                     |
+| Document is clear, concise, and actionable.                      | Yes                     |
+
+---
+
+**Final Notes:**
+
+Save this document as part of your portfolio to demonstrate your understanding of IT audits and cybersecurity best practices.
+
